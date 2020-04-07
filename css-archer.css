@@ -1,0 +1,52 @@
+/* Landing Page */
+h1{
+    text-align:center;
+    font-size: 67px;
+    color:#F64949;
+    margin:0px;
+}
+
+h2{
+    text-align:center;
+    /* color:#C72B2B; */
+    color:#F64949;
+    margin:0px;
+}
+
+#front-page{
+    margin-top:30px;
+}
+
+#start-button{
+    margin:0 auto;
+    margin-top: 25px;
+    border:2px solid black;
+    padding:12px 27px;
+    display:block;
+    background: rgb(27, 91, 255);
+    color:white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+/* Archer Page */
+canvas {
+    border: 2px solid rgb(27, 91, 255);
+    background-image:url("images/grass.gif");
+    background-repeat: no-repeat;
+    position:relative;
+}
+
+button {
+    margin:0 auto;
+    margin-top: 5px;
+    border:2px solid black;
+    padding:10px 25px;
+    display:block;
+    background-color: rgb(27, 91, 255);
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}

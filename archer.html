@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>ARCHER</title>
+    <!-- JavaScript Libraries -->
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <!-- CSS Libraries -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css-archer.css" rel="stylesheet">
+</head>
+
+<body class = "jumbotron" style = "text-align: center;" onload="startGame()">
+
+
+
+  <div class = "container">
+        <script src="js-archer.js"></script>
+  </div>
+  <div class = "row">
+        <button  type="button" id="homepage" onClick="history.go(-1)">HOME PAGE</button>
+        <button  type="button" id="volumeToggle" onClick="volumeToggle()">SOUND OFF</button>
+        <button  type="button" id="restart" onClick="history.go(0)">RESTART</button>
+  </div>
+
+  <script>
+    document.querySelectorAll("button").forEach( function(item) {
+      item.addEventListener('focus', function() {
+        this.blur();
+      });
+    });
+  </script>
+  
+</body>
+</html>      
